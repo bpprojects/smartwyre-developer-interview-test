@@ -13,7 +13,8 @@ namespace Smartwyre.DeveloperTest.Services
             
             var result = new MakePaymentResult();
 
-            switch (request.PaymentScheme)
+            switch (
+                .PaymentScheme)
             {
                 case PaymentScheme.BankToBankTransfer:
                     if (account == null)
